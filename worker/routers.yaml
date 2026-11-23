@@ -1,0 +1,15 @@
+# Router inventory for GNS3 Cisco routers
+# Credentials are kept strictly in environment variables (never in Kafka messages or YAML)
+routers:
+  router1:
+    host: 192.168.144.11
+    port: 22
+    username_env: ROUTER_USER
+    password_env: ROUTER_PASS
+    enable_password_env: ROUTER_ENABLE_PASS
+  router2:
+    host: 192.168.144.12
+    port: 22
+    username_env: ROUTER_USER
+    password_env: ROUTER_PASS
+    enable_password_env: ROUTER_ENABLE_PASS
